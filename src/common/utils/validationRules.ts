@@ -1,7 +1,7 @@
 import { validateProps } from "../../common/types";
 
 export default function validate(values: validateProps) {
-  let errors = {} as validateProps;
+  const errors = {} as validateProps;
 
   if (!values.name) {
     errors.name = "Name is required";

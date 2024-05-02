@@ -1,7 +1,7 @@
 import { TFunction } from "react-i18next";
 export interface ContainerProps {
   border?: boolean;
-  children: React.ReactNode;
+  children?: React.ReactNode;
 }
 
 export interface ButtonProps {
