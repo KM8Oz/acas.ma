@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { MenuOutlined } from "@ant-design/icons";
 
 export const HeaderSection = styled("header")`
-   padding: 1pem 0.5rem;
+   padding: 0em 0.5rem 0.7em 0.5rem;
    background: rgba(0, 174, 240, 0.15);
    position: sticky;
    top: 0px;

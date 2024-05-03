@@ -77,7 +77,10 @@
     "test": "node scripts/test.js"
   },
   "eslintConfig": {
-    "extends": "react-app"
+    "rules": {
+      "no-unused-vars": 0,
+      "@typescript-eslint/no-unused-vars": 0
+    }
   },
   "browserslist": {
     "production": [

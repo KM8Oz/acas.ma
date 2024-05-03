@@ -48,7 +48,9 @@ const ContentBlock = ({
           <Col lg={11} md={11} sm={11} xs={24}>
             <ContentWrapper>
               <h6>{t(title)}</h6>
-              <Content>{t(content)}</Content>
+              <Content style={{
+                fontSize:17
+              }}>{t(content)}</Content>
               {direction === "right" ? (
                 <ButtonWrapper>
                   {typeof button === "object" &&

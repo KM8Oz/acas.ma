@@ -1,13 +1,9 @@
 {
-  "title": "Landing page template for developers & startups",
-  "text": "Beautifully designed templates using React.js, ant design and styled-components! Save weeks of time and build your landing page in minutes.",
+  "title": "Méthodologie",
+  "text": " Plongez dans la méthode ACAS (Atelier de Construction Métallique) et découvrez l'excellence opérationnelle qui définit notre atelier. Grâce à des années d'expérience et d'innovation, ACAS a développé une approche méthodologique rigoureuse qui garantit la qualité, la sécurité et l'efficacité à chaque étape de la construction métallique. De la conception à la fabrication, en passant par l'installation et la maintenance, notre méthodologie ACAS repose sur des normes élevées, une expertise technique pointue et un engagement indéfectible envers la satisfaction du client.",
   "button": [
     {
       "title": "Explore"
-    },
-    {
-      "title": "Learn more",
-      "color": "#fff"
     }
   ]
 }

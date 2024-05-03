@@ -1,11 +1,32 @@
 import React from 'react';
 import styled from 'styled-components';
+import { Label } from '../Footer/styles';
 
 const SwitchContainer = styled.label`
   display: inline-block;
   position: relative;
-  width: 60px;
+  width:fit-content;
   height: 34px;
+  display: flex;
+  flex-direction: row;
+  @media screen and (max-width: 400px){
+    display: none;
+  }
+  user-select: none;
+  cursor: pointer;
+  &:before {
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    background-color: #e2e2e2;
+    opacity: 0.3;
+    backdrop-filter: blur(59%);
+    top: -15px;
+    left:-43px;
+    overflow: hidden;
+    border-radius: 16px;
+  }
 `;
 
 const Slider = styled.span`
@@ -19,12 +40,11 @@ const Slider = styled.span`
   -webkit-transition: .4s;
   transition: .4s;
   border-radius: 34px;
-
   &:before {
     position: absolute;
     content: "";
-    height: 26px;
-    width: 26px;
+    height: 13px;
+    width: 13px;
     left: 4px;
     bottom: 4px;
     background-color: white;
@@ -58,6 +78,14 @@ const Switch = ({ checked, handleChange, ...rest }: {
 }&any) => {
   return (
     <SwitchContainer {...rest}>
+      <Label style={{
+        fontSize:12,
+        margin:0,
+        position:"absolute",
+        left: -33
+      }}>
+        auto
+      </Label>
       <Input type="checkbox" checked={checked} onChange={handleChange} />
       <Slider />
     </SwitchContainer>

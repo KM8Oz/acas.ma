@@ -1,0 +1,10 @@
+{
+    "title": "history_title",
+    "description": "history_description",
+    "slides": [
+        "/img/history/slide0.jpg",
+        "/img/history/slide1.jpg",
+        "/img/history/slide2.jpg",
+        "/img/history/slide3.jpg"
+    ]
+}
